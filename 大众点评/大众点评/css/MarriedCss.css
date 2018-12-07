@@ -1,0 +1,375 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+ .inner{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    /*left: 20px;*/
+    /*overflow: hidden;*/
+
+}
+ .ban{
+    width: 180px;
+    height: 36px;
+    position: relative;
+    top: 38px;
+    left: 45px;
+}
+ .ban p{
+    color: #8b8b8b;
+    display: inline;
+}
+ .bone{
+    width: 1200px;
+    height: 400px;
+}
+ .bone .tip {
+     width: 314px;
+     height: 44px;
+    position: relative;
+    top: 50px;
+    left: 426px;
+}
+ .bone .tip p{
+     color: black;
+    width: 120px;
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+ #til1{
+     position: absolute;
+     top: 10px;
+     left: 0;
+ }
+ #til2{
+     position: absolute;
+     top: 10px;
+     left: 98px;
+ }
+ #til3{
+     position: absolute;
+     top: 10px;
+     left: 180px;
+ }
+ .bone .lun{
+    width: 86px;
+    height: 3px;
+    background-color: #ff6585;
+    position: relative;
+    top: 70px;
+    left: 436px;
+}
+ .bone .pic{
+     width: 1180px;
+     height: 251px;
+     position: relative;
+     top: 100px;
+ }
+ .pic1{
+     width: 1180px;
+    height: 251px;
+    position: absolute;
+    top: 0;
+     left: 0;
+}
+ .pic1 img{
+    width: 190px;
+    height: 250px;
+    padding: 1px;
+    opacity: 0.9;
+}
+ .pic2{
+     width: 1180px;
+     height: 251px;
+    position: absolute;
+     top: 0;
+     left: 0;
+    display: none;
+}
+ .pic2 img{
+    width: 190px;
+    height: 250px;
+    padding: 1px;
+    opacity: 0.9;
+}
+ .pic3{
+     width: 1180px;
+    height: 251px;
+    position: absolute;
+     top: 0;
+     left: 0;
+    display: none;
+}
+ .pic3 img{
+    width: 190px;
+    height: 250px;
+    padding: 1px;
+    opacity: 0.9;
+}
+ .bone img:hover{
+     opacity: 1;
+ }
+ .bone .moad{
+     width: 1200px;
+     height: 62px;
+     position: relative;
+     top: 10px;
+     left: 30px;
+ }
+ .bone .moad p{
+     color: #8b8b8b;
+     font-size: 16px;
+     display: inline;
+ }
+ .bone ul{
+     display: inline;
+ }
+ .bone .cont{
+     color: black;
+     font-size: 16px;
+     text-align: center;
+     list-style: none;
+     display: inline;
+ }
+ .bone .cont:hover{
+     cursor: pointer;
+     color: #ff6585;
+ }
+ .btwo{
+     width: 1200px;
+     height: 800px;
+     position: relative;
+     top: 50px;
+ }
+ .btwo .tip{
+     width: 529px;
+     height: 30px;
+     position: relative;
+     top: 80px;
+     left: 20px;
+ }
+ .btwo .tip h1{
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+ .btwo ul{
+    color: #ff6585;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+ .btwo li{
+    list-style: none;
+    display: inline;
+    color: #8b8b8b;
+    font-size: 14px;
+}
+ .btwo a{
+    text-decoration: none;
+    color: black;
+}
+ .btwo a:hover{
+    cursor: pointer;
+    color: #ff6585;
+}
+ .btwo .more{
+     width: 82px;
+     height: 26px;
+     position: relative;
+     top: 52px;
+     left: 999px;
+ }
+ .more p{
+    color: #ff6585;
+    font-size: 14px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    display: inline;
+}
+ .more img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 61px;
+
+}
+ .more:hover{
+    cursor: pointer;
+}
+ .btwo .pic{
+     width: 1206px;
+     height: 690px;
+     position: relative;
+    top: 100px;
+    left: 20px;
+}
+ .pics .picE{
+    width: 283px;
+    height: 212px;
+    position: absolute;
+    /*top: 1px;*/
+}
+ .pics .picE:hover{
+     transform: scale(1.1);
+ }
+ .pics{
+     width: 283px;
+     height: 329px;
+     position: relative;
+     border: 1px solid #8b8b8b;
+ }
+ .pics:hover{
+     cursor: pointer;
+ }
+ .pics .price{
+     width: 83px;
+     height: 22px;
+     color: #ff6585;
+     font-size: 16px;
+     font-weight: 600;
+     position: absolute;
+     top: 230px;
+ }
+ .pics .beprice{
+     color: #8b8b8b;
+     position: absolute;
+     top: 230px;
+     left: 100px;
+ }
+ .pics .addr{
+     width: 56px;
+     height: 26px;
+     font-size: 14px;
+     font-weight: 400;
+     position: absolute;
+     top: 255px;
+     left: 13px;
+ }
+ .pics .name{
+     width: 202px;
+     height: 28px;
+     position: absolute;
+     top: 255px;;
+     left: 78px;
+ }
+ .pics .but{
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     top: 286px;
+ }
+ .pics .inf{
+     width: 190px;
+     height: 22px;
+     color: #8b8b8b;
+     position: absolute;
+     top: 289px;
+     left: 64px;
+ }
+ .bthree{
+     width: 1200px;
+     height: 900px;
+     position: relative;
+     top: 100px;
+ }
+ .bthree .tip{
+     width: 158px;
+     height: 43px;
+     position: relative;
+     top: 70px;
+     left: 20px;
+
+ }
+ .bthree h1{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .bthree .more{
+    width: 86px;
+    height: 34px;
+    position: absolute;
+    top: 68px;
+    left: 1000px;
+}
+ .bthree .pic{
+     width: 1200px;
+     height: 820px;
+ }
+ #kzal{
+     width: 1200px;
+     height: 690px;
+     position: relative;
+     top: 82px;
+
+ }
+ #kzal td:hover{
+     cursor: pointer;
+     color: #ff6585;
+     transform: scale(1.1);
+ }
+ #kzal .bigTip{
+     font-size: 20px;
+ }
+ #kzal .bigTip:hover{
+     cursor: pointer;
+ }
+ #kzal .smallTip{
+     font-size: 20px;
+     color: #8b8b8b;
+ }
+ #kzal .smallTip:hover{
+     cursor: pointer;
+ }
+ #kzal .shadow{
+     box-shadow: 10px 10px 5px #888888;
+ }
+ .bfour{
+     width: 1200px;
+     height: 540px;
+     position: relative;
+     top: 76px;
+ }
+ .bfour .tip{
+     width: 210px;
+     height: 29px;
+     position: relative;
+     top: 50px;
+     left: 20px;
+ }
+ .bfour h1{
+    float: left;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ .bfour .more{
+     width: 82px;
+     height: 26px;
+     position: relative;
+     top: 20px;
+     left: 999px;
+}
+ .bfour .pic{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+ footer{
+     position: relative;
+     left: 200px;
+ }
+
+

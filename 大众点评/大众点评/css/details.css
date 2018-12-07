@@ -1,0 +1,425 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 100%;
+    height: 204px;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background: #eaeaea;
+    position: relative;
+}
+.top{
+    float: left;
+    list-style: none;
+    position: absolute;
+    right: 100px;
+}
+li{
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 20px 0;
+}
+#sy{
+    float: left;
+    font-size: 12px;
+    position: absolute;
+    left: 100px;
+    line-height: 30px;
+}
+#sy img{
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+
+.search {
+    position: absolute;
+    width: 100%;
+    height: 270px;
+}
+#logo{
+    top: 50px;
+    position: absolute;
+    left: 100px;
+}
+input{
+    position: absolute;
+    border: 2px solid #ff8400;
+    width: 450px;
+    height: 40px;
+    top: 55px;
+    left:530px;
+}
+.sjz{
+    width: 150px;
+    height: 44px;
+    position: absolute;
+    left: 984px;
+    top: 55px;
+    background: #ff8400;
+    color: white;
+    font-size:20px;
+    line-height: 40px;
+    text-align: center;
+}
+.sqz{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    left: 1150px;
+    top: 55px;
+    font-size:20px;
+    line-height: 40px;
+}
+.top img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    padding: 0 5px 0;
+}
+.under{
+    position: relative;
+    top: 100px;
+    left: 510px;
+}
+.under ul{
+    list-style-type: none;
+}
+.index{
+    position: relative;
+    top: 150px;
+}
+#jz{
+    color: white;
+    font-size: 20px;
+    width: 230px;
+    height: 50px;
+    background-color: #ff9c33;
+    float: left;
+    position: absolute;
+    left:100px ;
+    line-height: 50px;
+    padding-left: 20px;
+}
+#jz img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+#word{
+    position: absolute;
+    left:400px;
+    top: 10px;
+}
+#word li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 28px 0;
+}
+.color{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 4px;
+    background-color: #ff860d;
+}
+#grey{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    background-color: #eaeaea;
+}
+#grey p{
+    position: absolute;
+    left: 150px;
+    line-height: 50px;
+}
+#grey img{
+    position: relative;
+    top: 3px;
+}
+#grey font{
+    font-weight: 800;
+}
+.main{
+    width: 100%;
+    height: 330px;
+    position: relative;
+}
+#first{
+    position: absolute;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    left: 30px;
+    top: 10px;
+}
+#left{
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    float: left;
+    background-color: #4c4c4c;
+    border-radius: 5px;
+    display: none;
+}
+#right{
+    width: 60px;
+    height: 100px;
+    float: right;
+    right: 0;
+    position: absolute;
+    top: 50px;
+    background-color: #4c4c4c;
+    border-radius: 5px;
+    display: none;
+}
+#left img{
+    position: relative;
+    top: 20px;
+}
+#right img{
+    position: relative;
+    top: 20px;
+}
+#pic{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 35%;
+    background: url("../image/imgs/zx1.jpg");
+    background-size: cover;
+}
+
+.download{
+    color: white;
+    width: 82px;
+    height: 30px;
+    background-color: #4c4c4c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 30px;
+    display: none;
+}
+.download img{
+    position: relative;
+    top: 3px;
+    left: 1px;
+}
+.bq img{
+    position: relative;
+    top:169px;
+}
+#second{
+    position: absolute;
+    background-color: #2f2f2f;
+    width: 70%;
+    height: 90px;
+    left: 30px;
+    top: 220px;
+}
+#one,#two,#three,#four,#five,#six,
+#ten,#eleven,#twelve,#thirteen,#fourteen,#fifteen{
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#one {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    float: left;
+    background: url("../image/imgs/zx1.jpg");
+    background-size: 50px 50px;
+}
+#two{
+    top: 20px;
+    position: relative;
+    left: 30px;
+    background: url("../image/imgs/zx2.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#three{
+    top: 20px;
+    position: relative;
+    left: 40px;
+    background: url("../image/imgs/zx3.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#four{
+    top: 20px;
+    position: relative;
+    left: 50px;
+    background: url("../image/imgs/zx4.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#five{
+    top: 20px;
+    position: relative;
+    left: 60px;
+    background: url("../image/imgs/zx5.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#six{
+    top: 20px;
+    position: relative;
+    left: 70px;
+    background: url("../image/imgs/zx7.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#seven{
+    float: left;
+    position: relative;
+    left: 80px;
+    width: 50px;
+    height: 90px;
+    background-color: #2f2f2f;
+}
+#seven img{
+    position: relative;
+    top: 30px;
+    left: 8px;
+}
+
+#eight{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 90px;
+    border:2px solid white;
+    background: url("../image/imgs/zx1.jpg");
+    background-size: 50px 50px;
+}
+#nine {
+    float: left;
+    position: relative;
+    left: 100px;
+    width: 50px;
+    height: 90px;
+    background-color: #2f2f2f;
+}
+#nine img{
+    position: relative;
+    top: 30px;
+    left: 8px;
+}
+
+
+#ten{
+    top: 20px;
+    position: relative;
+    left: 110px;
+    background: url("../image/imgs/zx7.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#eleven{
+    top: 20px;
+    position: relative;
+    left: 120px;
+    background: url("../image/imgs/zx8.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#twelve{
+    top: 20px;
+    position: relative;
+    left: 130px;
+    background: url("../image/imgs/zx9.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#thirteen{
+    top: 20px;
+    position: relative;
+    left: 140px;
+    background: url("../image/imgs/zx10.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#fourteen{
+    top: 20px;
+    position: relative;
+    left: 150px;
+    background: url("../image/imgs/zx11.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#fifteen{
+    top: 20px;
+    position: relative;
+    left: 160px;
+    background: url("../image/imgs/zx12.jpg");
+    background-size: 50px 50px;
+    float: left;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,
+#ten,#eleven,#twelve,#thirteen,#fourteen,#fifteen:hover{
+    cursor: pointer;
+}
+#third{
+    width: 217px;
+    height: 320px;
+    /*background-color: blue;*/
+    position: absolute;
+    right: 100px;
+    overflow: scroll;
+}
+#third::-webkit-scrollbar{
+    width: 10px;
+    height: 1px;
+}
+#third::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #535353;
+}
+#third::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    color: grey;
+    position: relative;
+    background-color: #eaeaea;
+    top:50px;
+}
+.footer ul{
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.footer li:hover{
+    cursor: pointer;
+    color: #ff860d;
+}

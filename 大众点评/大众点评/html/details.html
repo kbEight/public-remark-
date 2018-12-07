@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>90平米三室两厅现代简约风格客厅背景墙图片</title>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/details.css"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <p id="sy"><img src="../image/imgs/hplg.png" alt=""/>大众点评首页</p>
+        <ul class="top">
+            <li>写点评</li>
+            <li>你好，请登录</li>
+            <li><font color="#ff860d">免费注册</font></li>
+            <li>个人中心<img src="../image/imgs/bjt.png" alt=""/></li>
+            <li>商户服务<img src="../image/imgs/bjt.png" alt=""/></li>
+            <li>帮助中心<img src="../image/imgs/bjt.png" alt=""/></li>
+            <li>网站导航<img src="../image/imgs/bjt.png" alt=""/></li>
+        </ul>
+
+        <div class="search">
+            <p id="logo"><a href=""><img src="../image/imgs/logo.png" alt=""/></a></p>
+            <input type="text" value="" placeholder="搜索商户名/地址/菜名/外卖等"/>
+            <div class="sjz">搜家装</div>
+            <div class="sqz">搜全站</div>
+            <div class="under">
+                <ul>
+                    <li><font color="#cccccc">大家都在搜：</font></li>
+                    <li><font color="999999">名创优品</font></li>
+                    <li><font color="999999">宜家家居</font></li>
+                    <li><font color="999999">苏宁易购</font></li>
+                    <li><font color="999999">装修</font></li>
+                    <li><font color="999999">窗帘</font></li>
+                    <li><font color="999999">五金店</font></li>
+                </ul>
+            </div>
+        </div>
+        <div class="index">
+            <div id="jz">家装 <img src="../image/imgs/jt.png" alt=""/></div>
+            <div id="word">
+                <ul>
+                    <li>首页</li>
+                    <li>装修美图</li>
+                    <li>家装头条</li>
+                    <li>无忧装</li>
+                    <li>同城活动</li>
+                    <li>团购</li>
+                    <li>家装社区</li>
+                </ul>
+            </div>
+            <div class="color"></div>
+        </div>
+    </div>
+</div>
+<div id="grey">
+    <p>南京家装 <img src="../image/imgs/rjt.png" alt=""/>装修美图 <img src="../image/imgs/rjt.png" alt=""/>
+    <font color="#ff860d">90平米三室两厅现代简约风格客厅背景墙图片</font></p>
+</div>
+
+<div class="main">
+    <div id="first">
+        <div id="left"><img src="../image/imgs/left.png" alt=""/></div>
+        <div id="pic"></div>
+        <div id="right"><img src="../image/imgs/right.png" alt=""/></div>
+        <div class="bq"><img src="../image/imgs/bq.png" alt=""/></div>
+        <div class="download"><img src="../image/imgs/download.png" alt=""/>下载图片</div>
+    </div>
+
+
+    <div id="second">
+        <div id="one" class="bgs">共1张</div>
+        <div id="two" class="bgs">共1张</div>
+        <div id="three" class="bgs">共1张</div>
+        <div id="four" class="bgs">共1张</div>
+        <div id="five" class="bgs">共1张</div>
+        <div id="six" class="bgs">共1张</div>
+        <div id="seven"><img src="../image/imgs/last.png" alt=""/></div>
+        <div id="eight"></div>
+        <div id="nine"><img src="../image/imgs/next.png" alt=""/></div>
+        <div id="ten" class="bgs">共1张</div>
+        <div id="eleven" class="bgs">共1张</div>
+        <div id="twelve" class="bgs">共1张</div>
+        <div id="thirteen" class="bgs">共1张</div>
+        <div id="fourteen" class="bgs">共1张</div>
+        <div id="fifteen" class="bgs">共1张</div>
+    </div>
+
+    <div id="third">
+        <img src="../image/imgs/xl1.jpg" alt=""/>
+        <img src="../image/imgs/xl2.jpg" alt=""/>
+        <img src="../image/imgs/xl3.jpg" alt=""/>
+    </div>
+</div>
+
+<div class="footer">
+    <ul>
+        <li>关于大众点评</li>
+        <li>诚信公约</li>
+        <li>网站帮助</li>
+        <li>网站地图</li>
+        <li>推广服务</li>
+        <li>媒体报道</li>
+        <li>人才招聘</li>
+        <li>最新资讯</li>
+        <li>站务论坛</li>
+        <li>联系我们</li>
+        <li>开发者</li>
+        <li>聚宝盆餐饮开放平台</li>
+    </ul>
+</div>
+
+
+<script>
+    $('#first').mouseover(function(){
+        $('#left').show();
+        $('#right').show();
+        $('.download').show();
+        this.style.cursor='pointer';
+        $('#left').mouseover(function(){
+            $('#left').css("opacity","0.4");
+            this.style.cursor='pointer';
+        });
+        $('#left').mouseout(function(){
+            $('#left').css("opacity","1");
+    });
+        $('#right').mouseover(function(){
+            $('#right').css("opacity","0.4");
+            this.style.cursor='pointer';
+        });
+        $('#right').mouseout(function(){
+            $('#right').css("opacity","1");
+        });
+        $('.download').mouseover(function(){
+            $('.download').css("opacity","0.4");
+            this.style.cursor='pointer';
+        });
+        $('.download').mouseout(function(){
+            $('.download').css("opacity","1");
+        });
+    });
+    $('#first').mouseout(function(){
+        $('#left').hide();
+        $('#right').hide();
+        $('#download').hide();
+    });
+
+
+
+
+    var iNow=0;
+    var timmer;
+
+    clearInterval(timmer);
+    setTime();
+
+    slider();
+    function slider(){
+
+        $('#left').click(function(){
+            beforPic();
+        });
+
+        $('#right').click(function(){
+            nextPic();
+            if(iNow==12){
+                iNow=$(".bgs").index(iNow);
+            }
+        });
+        function nextPic(){
+            iNow++;
+            console.log(iNow);
+            slidTo();
+            clearInterval(timmer);
+            setTime();
+
+
+        }
+        function beforPic(){
+            iNow--;
+            console.log(iNow);
+            slidTo();
+            clearInterval(timmer);
+            setTime();
+
+        }}
+    function slidTo() {
+        $('#pic').css('background','url(../image/imgs/zx'+(iNow+1)+'.jpg)');
+        $('#eight').css({'background':'url(../image/imgs/zx'+(iNow+1)+'.jpg)','background-size':'50px 50px'});
+        if (iNow > 11) {
+            iNow = 12;
+        }
+        if (iNow < 0) {
+            iNow = 11;
+            $('.bgs').eq(11).css('opacity', '1');
+        }
+        $('.bgs').css('opacity', '0.6');
+        $('.bgs').eq(iNow).css('opacity','1');
+
+    }
+    function setTime(){
+        timmer=setInterval(function(){
+            iNow++;
+            slidTo();
+        },4000);
+    }
+
+
+    $('.header').click(function(){
+        window.location.href="index.html";
+    })
+
+
+
+
+
+
+</script>
+</body>
+</html>

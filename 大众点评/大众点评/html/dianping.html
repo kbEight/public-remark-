@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我要点评 - 大众点评网</title>
+    <link rel="stylesheet" href="../css/dianping.css"/>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+
+</head>
+<body>
+
+<div class="inner">
+    <header>
+
+        <ul class="index">
+            <li>网站导航▼</li>
+            <li>帮助中心▼</li>
+            <li>商务服务▼</li>
+            <li id="per">个人中心▼</li>
+            <li>消息</li>
+            <li></li>
+            <li>鹿晗今天是单身吗</li>
+
+            <li>写点评</li>
+            <a href="index.html"><li id="home"><img src="../image/img/home.png" alt=""/>大众点评首页</li></a>
+        </ul>
+    </header>
+</div>
+
+
+
+
+    <div class="main1">
+        <div class="dzdp">
+            <img src="../image/img/dzdp.png" alt=""/></div>
+        <div class="dp">我要点评</div>
+</div>
+
+
+<div class="inner">
+  <div class="main2">
+      <div class="text1">写点评，记录生活足迹</div>
+      <div class="text2">
+          <input type="text" placeholder="上海" />
+          <input type="text" placeholder="搜索店名"/>
+      </div>
+  </div>
+<div class="main3">
+    <table>
+
+</table>
+    <div class="gr"><img src="../image/img/gr.png" alt=""/></div>
+</div>
+
+
+
+
+<footer>
+    <div>
+        <span>关于大众点评</span>
+        <span>诚信公约</span>
+        <span>网站帮助</span>
+        <span>网站地图</span>
+        <span>推广服务</span>
+        <span>媒体报道</span>
+        <span>人才招聘</span>
+        <span>最新咨询</span>
+        <span>站务论坛</span>
+        <span>联系我们</span>
+        <span>开发者</span>
+        <span>聚宝盆餐饮开放平台</span>
+        <br/>
+
+        ©2003-2018 dianping.com, All Rights Reserved. 本站发布的所有内容，未经许可，不得转载，详见 《知识产权声明》。
+    </div>
+</footer>
+
+</div>
+
+
+
+
+
+
+
+</body>
+<script>
+    $(function() {//window.onload
+        ajaxFunc()
+        function ajaxFunc() {
+    $.ajax({
+        url: '../js/dp.json',
+        async: true,
+        type: "GET",
+        dataType: 'json',
+        success: function (msg) {
+            $.each(msg.data, function (index, da) {
+                var str =` <tr>
+                <td>
+                <span class="span0"><img src="${da.td1}" alt=""/></span>
+                        <span class="span1">${da.td2}</span>
+                        <span class="span2">${da.td3}</span>
+                        <span class="span3">评分：</span>
+                <span class="span4">
+                                <span class="span4-1">☆</span>
+                                <span class="span4-2">☆</span>
+                                <span class="span4-3">☆</span>
+                                <span class="span4-4">☆</span>
+                                <span class="span4-5">☆</span>
+                </span>
+
+                </td>
+                </tr>`
+                console.log(str);
+                $('table').append(str);
+            })
+        },
+
+        error: function () {
+            alert('失败')
+        }
+
+
+    })
+        }
+
+        $(document).scroll(function () {
+            var top = $(document).scrollTop();
+            var winH = $(window).height();
+            var nowH = top + winH;
+
+            
+            var goodsH = $('td:last').offset().top;
+
+            if (nowH > goodsH && nowH < 3000) {
+
+                ajaxFunc()
+            }
+            if (nowH > 3000) {
+            }
+        })
+    })
+    $(document).scroll(function(){
+        var top=$(document).scrollTop();
+        if(top>200){
+            $('.gr').css({'position':'fixed','top':'0'})
+        }
+        if(top<200){
+            $('.gr').css({'position':'absolute','top':'200px'})
+        }
+
+    })
+    $("table").on("click",".span4-1",function(){
+        var i=$('.span4-1').index($(this));
+        console.log(i)
+        $('tr .span4-1').eq(i).css('color','red');
+        $('tr .span4-1').eq(i).html('★');
+    });
+    $("table").on("click",".span4-2",function(){
+        var i=$('.span4-2').index($(this));
+        console.log(i)
+        $('tr .span4-1').eq(i).css('color','red');
+        $('tr .span4-1').eq(i).html('★');
+        $('tr .span4-2').eq(i).css('color','red');
+        $('tr .span4-2').eq(i).html('★');
+    });
+    $("table").on("click",".span4-3",function(){
+        var i=$('.span4-3').index($(this));
+        console.log(i)
+        $('tr .span4-3').eq(i).css('color','red');
+        $('tr .span4-3').eq(i).html('★');
+        $('tr .span4-1').eq(i).css('color','red');
+        $('tr .span4-1').eq(i).html('★');
+        $('tr .span4-2').eq(i).css('color','red');
+        $('tr .span4-2').eq(i).html('★');
+    });
+    $("table").on("click",".span4-4",function(){
+        var i=$('.span4-4').index($(this));
+        console.log(i)
+        $('tr .span4-4').eq(i).css('color','red');
+        $('tr .span4-4').eq(i).html('★');
+        $('tr .span4-3').eq(i).css('color','red');
+        $('tr .span4-3').eq(i).html('★');
+        $('tr .span4-1').eq(i).css('color','red');
+        $('tr .span4-1').eq(i).html('★');
+        $('tr .span4-2').eq(i).css('color','red');
+        $('tr .span4-2').eq(i).html('★');
+    });
+    $("table").on("click",".span4-5",function(){
+        var i=$('.span4-5').index($(this));
+        console.log(i)
+        $('tr .span4-5').eq(i).css('color','red');
+        $('tr .span4-5').eq(i).html('★');
+        $('tr .span4-4').eq(i).css('color','red');
+        $('tr .span4-4').eq(i).html('★');
+        $('tr .span4-3').eq(i).css('color','red');
+        $('tr .span4-3').eq(i).html('★');
+        $('tr .span4-1').eq(i).css('color','red');
+        $('tr .span4-1').eq(i).html('★');
+        $('tr .span4-2').eq(i).css('color','red');
+        $('tr .span4-2').eq(i).html('★');
+    });
+</script>
+</html>

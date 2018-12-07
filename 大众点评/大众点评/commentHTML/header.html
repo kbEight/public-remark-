@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/lp_commentCSS.css"/>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+<body>
+<div class="bigtop"></div>
+<div id="fgx"></div>
+<div class="inner">
+<div class="bigbox">
+    <div class="BM"><img src="../image/lp_img/button/BM.png" /><p><a href="../html/index.html">大众点评首页</a></p></div>
+    <div class="list">
+        <li class="top">网站导航<img src="../image/lp_img/button/more.png"/><div class="topmore1"></div></li>
+        <li class="top">帮助中心<img src="../image/lp_img/button/more.png"/><div class="topmore2"></div></li>
+        <li class="top">商户服务<img src="../image/lp_img/button/more.png"/><div class="topmore3"></div></li>
+        <li class="top">个人中心<img src="../image/lp_img/button/more.png"/><div class="topmore4"></div></li>
+        <li class="top">消息</li>
+        <li class="top">soullarandjs</li>
+        <li class="top">写点评</li>
+    </ul></div>
+</div>
+<div class="well">
+
+
+    <div id="one">
+        <div class="dzdp">
+        <img src="../image/lp_img/button/dzdp.png" width ="37px" height = "37px"/>
+        <img src="../image/lp_img/button/jh.jpg" width ="202px" height = "31px"/>
+        </div>
+        <div id="location"><img src="../image/lp_img/button/location.png" width ="22px" height = "18px" id="loca"/>
+            <p id="loc">南京</p>
+            <img src="../image/lp_img/button/chose.png" width ="20px" height = "20px" id="ch"/></div>
+    </div>
+
+    <div id="two"><input type="search" placeholder="搜索商户名、地址、菜名、外卖等" id="search"/><input type="button"  class="jiehun" value="搜结婚"/>
+        <button class="quanzhan" >搜全站</button></div>
+
+    <div id="three">
+        <div class="kind"><p>全部结婚分类</p><img src="../image/lp_img/button/chose.png"/></div>
+        <div class="fenlei">
+            <ul><a href="#">婚纱摄影</a>
+                <li><a href="#">旅拍</a></li>
+                <li><a href="#">个性写真</a></li>
+            </ul>
+            <ul><a href="#">婚宴</a>
+                <li><a href="#">星级酒店</a></li>
+                <li><a href="#">婚礼会所</a></li>
+            </ul>
+            <ul><a href="#">婚礼策划</a>
+                <li><a href="#">彩妆</a></li>
+                <li><a href="#">司仪</a></li>
+                <li><a href="#">跟拍</a></li>
+            </ul>
+            <ul><a href="#">婚纱礼服</a>
+                <li><a href="#">西服定制</a></li>
+                <li><a href="#">婚戒首饰</a></li>
+
+            </ul>
+            </div>
+    </div>
+
+    <div id="four">
+        <ul class="else">
+            <li>团购</li>
+            <li>霸王餐 <img src="../image/lp_img/button/HOT.png" width="20px" height="16px"/></li>
+            <li>论坛社区</li>
+            <li>婚尚资讯</li>
+        </ul></div>
+
+
+    </div>
+
+</div>
+<script>
+    $(".kind").hover(
+            function () {
+                $('.fenlei').css('display','block');
+                $(this).addClass("hover");
+            },
+            function () {
+                $('.fenlei').css('display','none');
+                $(this).removeClass("hover");
+            }
+    );
+    $(".fenlei").hover(
+            function () {
+                $('.fenlei').css('display','block')
+                $(this).addClass("hover");
+            },
+            function () {
+                $('.fenlei').css('display','none');
+                $(this).removeClass("hover");
+            }
+    );
+</script>
+
+
+</body>
+</html>

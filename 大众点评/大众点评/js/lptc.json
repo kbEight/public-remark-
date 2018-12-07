@@ -1,0 +1,71 @@
+{
+  "lvpaione":[
+    {
+      "src":"../image/lp_img/lptc/lptc(1).jpg",
+      "price":"￥4988",
+      "beprice":"￥23888",
+      "address":"三亚",
+      "name":"【人气爆款】全国包邮+旅...",
+      "inf":"伊莎利娅全球旅拍婚纱摄影"
+    },
+    {
+      "src":"../image/lp_img/lptc/lptc(2).jpg",
+      "price":"￥6599",
+      "beprice":"￥39999",
+      "address":"厦门",
+      "name":"旅游婚纱摄影微电影双机...",
+      "inf":"厦门国色佳人婚纱摄影影楼"
+    },
+    {
+      "src":"../image/lp_img/lptc/lptc(3).jpg",
+      "beprice":"￥7888",
+      "price":"￥19998",
+      "address":"三亚",
+      "name":"《海派婚纱》三亚套餐",
+      "inf":"海派婚纱摄影"
+    },
+    {
+      "src":"../image/lp_img/lptc/lptc(4).jpg",
+      "price":"￥10980",
+      "beprice":"￥16980",
+      "address":"杭州",
+      "name":"韩国艺匠全球旅拍--杭州站",
+      "inf":"韩国艺匠ARTIZ STUDIO"
+    }
+  ],
+  "lvpaitwo":[
+{
+"src":"../image/lp_img/lptc/lptc(5).jpg",
+"price":"￥29980",
+"beprice":"￥59980",
+"address":"巴黎",
+"name":"韩国艺匠全球旅拍--巴黎站",
+"inf":"韩国艺匠ARTIZ STUDIO"
+},
+{
+"src":"../image/lp_img/lptc/lptc(6).jpg",
+"price":"￥10980",
+"beprice":"￥16980",
+"address":"三亚",
+"name":"韩国艺匠全球拍--三亚站",
+"inf":"韩国艺匠ARTIZ STUDIO"
+},
+{
+"src":"../image/lp_img/lptc/lptc(7).jpg",
+"price":"￥12998",
+"beprice":"￥14998",
+"address":"大理等",
+"name":"丽江微旅拍",
+"inf":"韩恋婚纱KOREA STUDIO"
+},
+{
+"src": "../image/lp_img/lptc/lptc(8).jpg",
+"price": "￥7998",
+"beprice": "￥9998",
+"address": "丽江",
+"name": "特色微旅拍",
+"inf": "韩恋婚纱KOREA STUDIO"
+}
+]
+}
+

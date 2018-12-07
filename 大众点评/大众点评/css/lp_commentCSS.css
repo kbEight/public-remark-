@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigtop{
+    width: 1364px;
+    height: 36px;
+    background-color: #f6f6f6;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#fgx{
+    background-color: #ff6585;
+    height: 2px;
+    width: 1364px;
+    border: none;
+    color: #ff6585;
+    position: relative;
+    top: 169px;
+}
+.inner{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    /*left: 20px;*/
+    /*overflow: hidden;*/
+
+}
+.bigbox{
+    width: 1200px;
+    height: 30px;
+    font-size: 13px;
+    position: relative;
+    top: -40px;
+}
+.bigbox .BM{
+    width: 98px;
+    position: absolute;
+    left: 120px;
+    color: #999999;
+}
+.bigbox .BM img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: -78px;
+   
+}
+.bigbox .BM p{
+    position: absolute;
+    top: 7px;
+    left: -60px;
+}
+.bigbox .BM a{
+    text-decoration: none;
+    color: black;
+}
+.bigbox .BM a:hover{
+    cursor: pointer;
+    color: #f75c28;
+}
+.bigbox .list{
+    width: 556px;
+    height: 28px;
+    position: relative;
+    top: 0;
+    left: 600px;
+}
+.bigbox li{
+    width: 78px;
+    height: 45px;
+    list-style: none;
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+}
+.bigbox li:hover{
+    color: #ff6585;
+    cursor: pointer;
+}
+.list img{
+    width: 14px;
+    height: 14px;
+}
+.list .top div{
+    float: right;
+}
+.list .top .topmore1{
+    width: 99px;
+    height: 220px;
+}
+.list .top .topmore2{
+    width: 107px;
+    height: 154px;
+}
+.list .top .topmore3{
+    width: 100px;
+    height: 59px;
+}
+.list .top .topmore4{
+    width: 188px;
+    height: 403px;
+}
+.list li:nth-child(4){
+    color: #999999;
+}
+.list li:nth-child(5){
+    color: #999999;
+}
+.list li:nth-child(6){
+    color: #999999;
+}
+.list li:nth-child(7){
+    color: #999999;
+}
+.well{
+    width: 1200px;
+    height: 171px;
+    position: relative;
+    top: -38px;
+    left: 0;
+}
+.well #one{
+    width: 400px;
+    height: 74px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#one .dzdp{
+    width: 252px;
+    height: 42px;
+    position: relative;
+    top: 10px;
+    left: 14px;
+}
+#one .dzdp img:nth-child(1){
+    position: absolute;
+    top: 4px;
+    left: 10px;
+
+}
+#one .dzdp img:nth-child(2){
+    position: absolute;
+    top: 9px;
+    left: 49px;
+
+}
+#location{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: -28px;
+    left: 279px;
+}
+#location #loc{
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 27px;
+}
+#location #loca{
+    position: absolute;
+    top: 6px;
+    left: 3px;
+}
+#location #ch{
+    position: absolute;
+    top: 10px;
+    left: 52px;
+}
+#two {
+    width: 679px;
+    height: 38px;
+    position: relative;
+    top: -56px;
+    left: 420px;
+}
+#two #search{
+    width: 433px;
+    height: 38px;
+    border: 2px solid #ff6585;
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+#two .jiehun{
+    width: 120px;
+    height: 38px;
+    border: 1px solid #ff6585;
+    background-color : #ff6585;
+    position:absolute;
+    top: 0;
+    left: 430px;
+}
+#two .quanzhan{
+    width: 120px;
+    height: 38px;
+    border: 1px solid #8b8b8b;
+    background-color : white;
+    position:absolute;
+    top: 0;
+    left: 560px;
+}
+#three{
+    width: 211px;
+    height: 39px;
+    position: relative;
+    top: 24px;
+    left: 0;
+}
+.kind{
+    width: 211px;
+    height: 39px;
+    background-color: #ff6585;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+.kind p{
+    color: white;
+    font-size: 16px;
+    display: inline;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+#three .kind img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+.fenlei{
+    /*float: left;*/
+    width: 214px;
+    height: 190px;
+    background-color: white;
+    box-shadow: 0 0 1px #8b8b8b inset;
+    white-space:normal;
+    word-break:break-all;
+    word-wrap:break-word;
+    position: relative;
+    top: 40px;
+    left: -1px;
+    display: none;
+    z-index: 1;
+}
+#three .fenlei ul{
+    font-size: 18px;
+    font-family: Consolas;
+    font-weight: 600;
+    /*float: left;*/
+    line-height: 35px;
+
+}
+#three .fenlei li{
+    font-size: 12px;
+    font-weight: 200;
+    display: inline;
+
+}
+#three .fenlei a:link{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+#three .fenlei a:visited{
+    color: black;
+}
+#three .fenlei a:hover{
+    color: orangered;
+    font-size: 14px;
+    text-decoration: none;
+}
+.else li{
+    display: inline;
+     width: 492px;
+    height: 36px;
+    color: #999999;
+    list-style: none;
+    position: relative;
+     top: -10px;
+    left: 250px;
+     font-size: 16px;
+     text-align: center;
+    padding: 24px;
+}
+.else li:hover{
+    color: #ff6585;
+    cursor: pointer;
+}
+#four .else img{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+/*footer{*/
+    /*clear: both;*/
+    /*width: 1200px;*/
+    /*height: 300px;*/
+    /*background-color: palegreen;*/
+/*}*/
+/*#foot{*/
+    /*position: relative;*/
+    /*left: 200px;*/
+/*}*/
+#test{
+    width: 1081px;
+    height: 32px;
+    position: relative;
+    /*left: 200px;*/
+}
+#foot {
+    width: 1081px;
+    height: 32px;
+    position: relative;
+}
+#last{
+    position: absolute;
+    /*left: 100px;*/
+}
+#foot li{
+    list-style: none;
+    display: inline;
+}
+#foot li:hover{
+    color: #f75c28;
+    cursor: pointer;
+}
+
+
